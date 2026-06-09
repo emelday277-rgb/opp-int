@@ -31,7 +31,7 @@ def load_sample_files():
     return opp, org
 
 
-API_URL = "http://127.0.0.1:8000"
+API_URL = os.getenv("API_URL", "http://127.0.0.1:8000")
 
 st.markdown("""
 <style>
@@ -560,94 +560,6 @@ def render_evidence(trail: list):
             <div class="ev-excerpt">{excerpt}...</div>
         </div>""", unsafe_allow_html=True)
 
-
-# --- Run Analysis ---
-# button_placeholder = st.empty()
-# is_analyzing = st.session_state.get("is_analyzing", False)
-
-# with button_placeholder:
-#     analyze_clicked = st.button(
-#         "Analyzing..." if is_analyzing else "Analyze opportunity →",
-#         disabled=is_analyzing or not can_analyze,
-#         use_container_width=True,
-#         type="primary"
-#     )
-
-# if analyze_clicked:
-#     st.session_state.is_analyzing = True
-#     st.session_state["results"] = None
-#     st.session_state["evidence_trail"] = []
-#     st.session_state["session_id"] = None
-#     button_placeholder.empty()
-
-#     with button_placeholder:
-#         st.button("Analyzing...", disabled=True, use_container_width=True, type="primary")
-
-#     try:
-#         files = [("opportunity_file", (opp_file.name, opp_file.getvalue(), opp_file.type))]
-#         for f in org_files:
-#             files.append(("organization_files", (f.name, f.getvalue(), f.type)))
-
-#         start_response = requests.post(f"{API_URL}/analyze", files=files, timeout=60)
-
-#         if start_response.status_code != 200:
-#             st.error(f"Failed to start: {start_response.json().get('detail','Unknown error')}")
-#             st.session_state.is_analyzing = False
-#             st.rerun()
-#             st.stop()
-
-#         session_id = start_response.json()["session_id"]
-#         st.session_state["session_id"] = session_id  # ← fixed: save session_id
-
-#         progress_placeholder = st.empty()
-#         MAX_WAIT_SECONDS = 300
-#         start_time = time.time()
-
-#         while True:
-#             elapsed = time.time() - start_time
-#             if elapsed > MAX_WAIT_SECONDS:
-#                 progress_placeholder.empty()
-#                 st.error("Analysis timed out after 5 minutes.")
-#                 st.session_state.is_analyzing = False
-#                 break
-
-#             try:
-#                 status_response = requests.get(f"{API_URL}/status/{session_id}", timeout=10)
-#                 data = status_response.json()
-#             except Exception:
-#                 time.sleep(3)
-#                 continue
-
-#             status = data.get("status")
-#             steps_done = data.get("reasoning_steps_completed", 0)
-
-#             with progress_placeholder.container():
-#                 pct = min(int((steps_done / 6) * 100), 95) if status == "processing" else 100
-#                 st.progress(pct, text=f"Step {steps_done}/6 complete · {int(elapsed)}s elapsed")
-#                 render_trace_steps(steps_done, status)
-
-#             if status == "complete":
-#                 progress_placeholder.empty()
-#                 st.session_state["results"] = data["results"]
-#                 st.session_state["evidence_trail"] = data.get("evidence_trail", [])
-#                 st.session_state["steps_completed"] = steps_done
-#                 st.session_state.is_analyzing = False
-#                 st.success("Analysis complete!")
-#                 st.rerun()
-#                 break
-
-#             elif status == "failed":
-#                 progress_placeholder.empty()
-#                 st.error(f"Analysis failed: {data.get('error', 'Unknown')}")
-#                 st.session_state.is_analyzing = False
-#                 break
-
-#             time.sleep(3)
-
-#     except Exception as e:
-#         st.error(f"Error: {str(e)}")
-#         st.session_state.is_analyzing = False
-#         st.rerun()
 
 # --- Button ---
 button_placeholder = st.empty()
