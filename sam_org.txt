@@ -1,0 +1,40 @@
+COMPANY PROFILE: TechBridge Solutions Ltd
+
+OVERVIEW:
+TechBridge Solutions is a software development company founded in 2019.
+We specialize in building custom web and mobile applications for businesses
+in the healthcare and logistics sectors. We have 12 full-time employees
+and an annual revenue of approximately $1.2 million USD.
+We are headquartered in Lagos, Nigeria — an eligible region.
+
+CORE CAPABILITIES:
+- Full-stack web development (React, Python, Node.js)
+- Mobile application development (iOS and Android)
+- Cloud infrastructure and DevOps (AWS, Azure)
+- Data analytics and dashboard development
+- API integration and system connectivity
+
+PAST PROJECTS:
+1. HealthTrack Portal — Built a patient management system for a regional
+   clinic network, reducing administrative time by 40%.
+2. LogiFlow Dashboard — Developed a real-time shipment tracking platform
+   for a mid-size logistics company serving 200+ clients.
+3. RetailSync App — Created an inventory management mobile app for a
+   retail chain with 15 locations.
+
+CERTIFICATIONS:
+- Microsoft Azure Certified Developer (3 team members)
+- AWS Solutions Architect Certification
+- ISO 9001 Quality Management Certification
+
+TEAM:
+- CEO/CTO: 15 years software engineering experience
+- 4 senior developers, 3 mid-level developers, 2 designers
+- 1 project manager, 1 business analyst
+
+FINANCIALS:
+Company registered since March 2019. Clean financial record.
+Annual revenue: $1.2M USD. No outstanding debts or legal issues.
+
+REFERENCES:
+Available from HealthTrack Clinics and LogiFlow Logistics upon request.

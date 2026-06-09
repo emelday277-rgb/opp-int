@@ -1,0 +1,91 @@
+SYNTHETIC CERTIFICATION ENABLEMENT GUIDE
+OppInt Platform — For demonstration purposes only
+
+CLOUD ENGINEER CERTIFICATION PATH
+Primary: AZ-204 (Developing Solutions for Microsoft Azure)
+Secondary: AZ-305 (Designing Azure Infrastructure Solutions)
+Prerequisites: AZ-900
+
+Key Study Areas for AZ-204:
+- Implement Azure App Service web apps
+- Implement Azure Functions
+- Develop solutions using Azure Blob Storage
+- Implement Azure security (authentication and authorization)
+- Monitor, troubleshoot, and optimize Azure solutions
+- Connect to and consume Azure services and third-party services
+
+Recommended Study Pattern:
+- 1-2 hours daily focused study
+- Weekly assessment checkpoints
+- Target 75% practice score before exam
+- Focus on hands-on labs in Azure Portal
+
+DEVOPS ENGINEER CERTIFICATION PATH
+Primary: AZ-400 (Designing and Implementing DevOps Solutions)
+Prerequisites: AZ-900
+
+Key Study Areas for AZ-400:
+- Design and implement source control
+- Design and implement build and release pipelines
+- Implement a secure continuous deployment
+- Manage infrastructure as code
+- Design and implement a dependency management strategy
+- Implement continuous feedback
+
+Recommended Study Pattern:
+- 25 hours total study time recommended
+- Practice with GitHub Actions and Azure Pipelines
+- Target 78% on practice assessments before sitting exam
+
+DATA ENGINEER CERTIFICATION PATH
+Primary: DP-203 (Data Engineering on Microsoft Azure)
+Prerequisites: AZ-900
+
+Key Study Areas for DP-203:
+- Design and implement data storage
+- Design and develop data processing
+- Design and implement data security
+- Monitor and optimize data storage and processing
+
+Recommended Study Pattern:
+- 22 hours total study time
+- Hands-on practice with Azure Synapse Analytics
+- Practice score target: 75%
+
+AI ENGINEER CERTIFICATION PATH
+Primary: AI-102 (Designing and Implementing Azure AI Solutions)
+Prerequisites: AZ-900
+
+Key Study Areas for AI-102:
+- Plan and manage an Azure AI solution
+- Implement decision support solutions
+- Implement computer vision solutions
+- Implement natural language processing solutions
+- Implement knowledge mining and document intelligence solutions
+- Implement generative AI solutions
+
+Recommended Study Pattern:
+- 20 hours total study time
+- Focus on Azure AI Services hands-on
+- Practice score target: 72%
+
+READINESS SCORING GUIDE
+Ready for exam: Practice score >= 80% AND hours studied >= recommended
+Nearly ready: Practice score >= 65% AND hours studied >= 70% of recommended
+Needs preparation: Practice score >= 50% OR hours studied >= 50% of recommended
+Not ready: Practice score < 50% AND hours studied < 50% of recommended
+
+TEAM LEARNING INSIGHTS (SYNTHETIC)
+Quarterly Performance Benchmark:
+- Average study time across teams: 21 hours
+- Team pass rate: 68%
+- Learners with 20+ hours AND 75%+ practice scores show 85% exam pass rate
+- Learners with high meeting loads (22+ hrs/week) show 40% lower completion rates
+- Optimal study window: 12-18 meeting hours + 15+ focus hours per week
+
+WORKLOAD AND LEARNING CORRELATION (SYNTHETIC)
+Key findings from synthetic team data:
+- High workload (22+ meeting hours) reduces study completion by 40%
+- Morning learners show 15% higher retention than evening learners
+- Study streaks of 7+ days correlate with 25% higher practice scores
+- Teams in active sprints need 2x longer to complete certification prep

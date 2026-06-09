@@ -1,0 +1,107 @@
+{
+  "learners": [
+    {
+      "id": "L-1001",
+      "name": "Alex Chen",
+      "role": "Cloud Engineer",
+      "department": "Engineering",
+      "target_certification": "AZ-204",
+      "current_certifications": ["AZ-900"],
+      "skills": ["Python", "REST APIs", "Azure Basics", "Docker"],
+      "practice_score_avg": 67,
+      "hours_studied": 12,
+      "study_streak_days": 5,
+      "last_assessment_date": "2024-07-15",
+      "exam_outcome_history": []
+    },
+    {
+      "id": "L-1002",
+      "name": "Jordan Williams",
+      "role": "DevOps Engineer",
+      "department": "Platform",
+      "target_certification": "AZ-400",
+      "current_certifications": ["AZ-900"],
+      "skills": ["GitHub Actions", "Terraform", "Docker", "Monitoring"],
+      "practice_score_avg": 82,
+      "hours_studied": 24,
+      "study_streak_days": 14,
+      "last_assessment_date": "2024-07-18",
+      "exam_outcome_history": [
+        {"certification": "AZ-900", "outcome": "Pass", "score": 85}
+      ]
+    },
+    {
+      "id": "L-1003",
+      "name": "Morgan Davis",
+      "role": "Data Engineer",
+      "department": "Analytics",
+      "target_certification": "DP-203",
+      "current_certifications": ["AZ-900"],
+      "skills": ["Python", "SQL", "Spark", "Azure Data Factory"],
+      "practice_score_avg": 74,
+      "hours_studied": 18,
+      "study_streak_days": 8,
+      "last_assessment_date": "2024-07-10",
+      "exam_outcome_history": [
+        {"certification": "AZ-900", "outcome": "Pass", "score": 78}
+      ]
+    },
+    {
+      "id": "L-1004",
+      "name": "Riley Thompson",
+      "role": "AI Engineer",
+      "department": "AI Research",
+      "target_certification": "AI-102",
+      "current_certifications": ["AZ-900"],
+      "skills": ["Python", "Machine Learning", "Azure AI Services", "NLP"],
+      "practice_score_avg": 55,
+      "hours_studied": 8,
+      "study_streak_days": 2,
+      "last_assessment_date": "2024-07-05",
+      "exam_outcome_history": []
+    },
+    {
+      "id": "L-1005",
+      "name": "Sam Rodriguez",
+      "role": "Solutions Architect",
+      "department": "Architecture",
+      "target_certification": "AZ-305",
+      "current_certifications": ["AZ-900", "AZ-204"],
+      "skills": ["Architecture Design", "Networking", "Security", "Azure Services"],
+      "practice_score_avg": 78,
+      "hours_studied": 22,
+      "study_streak_days": 10,
+      "last_assessment_date": "2024-07-20",
+      "exam_outcome_history": [
+        {"certification": "AZ-900", "outcome": "Pass", "score": 88},
+        {"certification": "AZ-204", "outcome": "Pass", "score": 80}
+      ]
+    }
+  ],
+  "teams": [
+    {
+      "id": "TEAM-A",
+      "name": "Cloud Platform Team",
+      "department": "Engineering",
+      "members": ["L-1001", "L-1002"],
+      "manager_id": "MGR-001",
+      "target_completion_date": "2024-09-30"
+    },
+    {
+      "id": "TEAM-B",
+      "name": "Data and AI Team",
+      "department": "Analytics",
+      "members": ["L-1003", "L-1004"],
+      "manager_id": "MGR-002",
+      "target_completion_date": "2024-09-30"
+    },
+    {
+      "id": "TEAM-C",
+      "name": "Architecture Team",
+      "department": "Architecture",
+      "members": ["L-1005"],
+      "manager_id": "MGR-003",
+      "target_completion_date": "2024-08-31"
+    }
+  ]
+}

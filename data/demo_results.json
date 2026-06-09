@@ -1,0 +1,333 @@
+{
+  "opportunity": {
+    "session_id": "demo-opportunity-001",
+    "status": "complete",
+    "reasoning_steps_completed": 6,
+    "results": {
+      "opportunity_summary": {
+        "purpose": "The Digital Innovation Fund supports small and medium businesses developing technology solutions that improve operational efficiency or customer experience. Grants of up to $50,000 USD are available.",
+        "requirements": [
+          "Business registered for at least 2 years",
+          "Between 5 and 100 full-time employees",
+          "Headquartered in an eligible region",
+          "Previous technology project experience",
+          "Annual revenue not exceeding $5 million USD"
+        ],
+        "deadlines": ["August 31, 2024 — final submission deadline"],
+        "evaluation_criteria": [
+          "Innovation and uniqueness (30%)",
+          "Technical feasibility and team capability (25%)",
+          "Potential impact and scalability (25%)",
+          "Budget justification (20%)"
+        ],
+        "submission_expectations": [
+          "Completed application form",
+          "Business registration certificate",
+          "Two-year financial statements",
+          "Technical project proposal — max 10 pages",
+          "CVs of key team members",
+          "Two reference letters from previous clients"
+        ]
+      },
+      "organization_summary": {
+        "core_capabilities": [
+          "Full-stack web development (React, Python, Node.js)",
+          "Mobile application development (iOS and Android)",
+          "Cloud infrastructure and DevOps (AWS, Azure)",
+          "Data analytics and dashboard development"
+        ],
+        "relevant_experience": [
+          "HealthTrack Portal — patient management system, 40% admin time reduction",
+          "LogiFlow Dashboard — real-time shipment tracking for 200+ clients",
+          "RetailSync App — inventory management for 15-location retail chain"
+        ],
+        "certifications": [
+          "Microsoft Azure Certified Developer (3 team members)",
+          "AWS Solutions Architect Certification",
+          "ISO 9001 Quality Management Certification"
+        ],
+        "team_and_resources": "12 full-time employees including CEO/CTO with 15 years experience, 4 senior developers, 3 mid-level developers, 2 designers, 1 project manager, 1 business analyst.",
+        "organizational_strengths": [
+          "Proven delivery track record in healthcare and logistics",
+          "Strong Azure and cloud certifications",
+          "Revenue well within eligibility threshold",
+          "4+ years operating history"
+        ]
+      },
+      "fit_evaluation": {
+        "fit_score": 8,
+        "strong_matches": [
+          {"area": "Registered since 2019 — exceeds 2-year requirement", "evidence": "Company profile confirms March 2019 registration"},
+          {"area": "12 employees — within 5-100 range", "evidence": "Team section confirms 12 full-time staff"},
+          {"area": "Revenue $1.2M — well under $5M cap", "evidence": "Financials section confirms $1.2M annual revenue"},
+          {"area": "Azure certified team", "evidence": "3 team members hold Azure Developer certification"}
+        ],
+        "partial_matches": [
+          {"area": "Technology project experience — strong portfolio, no prior grant history", "evidence": "3 completed projects listed but no grants mentioned"}
+        ],
+        "gaps": [
+          {"area": "Reference letters — not yet arranged", "evidence": "Profile notes references available on request only"},
+          {"area": "Application form — not started", "evidence": "No mention in submitted documents"}
+        ],
+        "eligibility_verdict": "Likely",
+        "evidence_summary": "TechBridge meets all core eligibility criteria. Primary gap is documentation readiness — reference letters and formal application form need attention before deadline."
+      },
+      "risk_assessment": {
+        "overall_risk_level": "Medium",
+        "high_risks": [
+          {"description": "Reference letters not yet secured — required document with long lead time. Risk of missing August 31 deadline if not started immediately.", "mitigation": "Contact HealthTrack Clinics and LogiFlow Logistics this week to request formal reference letters."}
+        ],
+        "medium_risks": [
+          {"description": "No prior grant application experience — proposal quality may be lower than experienced competitors.", "mitigation": "Review past winning applications from this fund and consider hiring a grant writer for the technical proposal."},
+          {"description": "Financial statements must cover 2 full years in required format — format compliance unknown.", "mitigation": "Confirm format requirements with the fund portal before preparing statements."}
+        ],
+        "low_risks": [
+          {"description": "Tight deadline — August 31 leaves limited time for revisions.", "mitigation": "Begin application immediately and submit at least 5 days before deadline."}
+        ]
+      },
+      "recommendation": {
+        "decision": "PURSUE",
+        "confidence_level": "High",
+        "reasons_to_pursue": [
+          "Meets all core eligibility requirements with documentary evidence",
+          "Strong portfolio of relevant technology projects in target sectors",
+          "Revenue and team size well within grant parameters",
+          "Certified Azure team aligns with technology innovation focus"
+        ],
+        "reasons_for_caution": [
+          "Reference letters not yet arranged — time-sensitive action required",
+          "No prior grant experience may affect proposal quality"
+        ],
+        "key_conditions": [
+          "Secure reference letters within 7 days",
+          "Begin technical proposal immediately",
+          "Confirm financial statement format with fund administrator"
+        ],
+        "strategic_summary": "TechBridge Solutions is a strong candidate for the Digital Innovation Fund. The organization meets all core eligibility criteria and has directly relevant project experience. The main risk is documentation readiness — reference letters must be secured immediately. With prompt action, this is a winnable grant."
+      },
+      "action_plan": {
+        "immediate_actions": [
+          "Contact HealthTrack Clinics and LogiFlow Logistics to request reference letters",
+          "Download and review the official application form from grants.digitalfund.org",
+          "Gather 2-year financial statements and confirm format requirements",
+          "Assign a team lead for the grant application process"
+        ],
+        "short_term_actions": [
+          "Draft the technical project proposal (max 10 pages)",
+          "Prepare CVs for all key team members",
+          "Complete business registration certificate copy",
+          "Review evaluation criteria and align proposal accordingly"
+        ],
+        "documents_to_prepare": [
+          "Completed application form",
+          "Business registration certificate",
+          "Two-year financial statements",
+          "Technical project proposal (max 10 pages)",
+          "CVs of key team members",
+          "Two reference letters from HealthTrack and LogiFlow"
+        ],
+        "preparation_checklist": [
+          "Confirm eligibility with fund administrator",
+          "Secure both reference letters",
+          "Prepare all financial documents in required format",
+          "Complete technical proposal draft and review",
+          "Internal review and sign-off"
+        ],
+        "submission_checklist": [
+          "All documents in PDF format",
+          "Application form fully completed and signed",
+          "Both reference letters attached",
+          "Financial statements covering exactly 2 years",
+          "Technical proposal under 10 pages",
+          "Submitted via grants.digitalfund.org portal before August 31"
+        ],
+        "recommended_priorities": [
+          "Secure reference letters immediately — longest lead time item",
+          "Begin technical proposal this week — most effort required",
+          "Confirm financial statement format — avoid last-minute surprises"
+        ]
+      }
+    },
+    "evidence_trail": [
+      {
+        "step": "opportunity_understanding",
+        "query_used": "opportunity purpose requirements deadlines eligibility evaluation criteria",
+        "evidence_retrieved": "GRANT OPPORTUNITY: Digital Innovation Fund 2024. The Digital Innovation Fund supports small and medium businesses developing technology solutions... Grants of up to $50,000 USD available... Must be registered for at least 2 years...",
+        "conclusion_summary": "Opportunity identified as a technology innovation grant for SMBs with clear eligibility thresholds and August 31 deadline."
+      },
+      {
+        "step": "organization_understanding",
+        "query_used": "organization capabilities experience certifications past projects strengths",
+        "evidence_retrieved": "TechBridge Solutions founded 2019... 12 full-time employees... $1.2M revenue... HealthTrack Portal reduced admin time by 40%... Azure Certified Developer (3 members)...",
+        "conclusion_summary": "Organization profiled as a capable SMB with strong Azure credentials and relevant healthcare/logistics project experience."
+      },
+      {
+        "step": "fit_evaluation",
+        "query_used": "eligibility requirements qualifications mandatory criteria",
+        "evidence_retrieved": "Business registered since March 2019 (5 years)... 12 employees within 5-100 range... Revenue $1.2M under $5M cap... Azure certified team members...",
+        "conclusion_summary": "Strong fit identified — 8/10 score. All core eligibility met. Primary gap is documentation readiness."
+      },
+      {
+        "step": "risk_assessment",
+        "query_used": "compliance requirements documentation deadline restrictions limitations",
+        "evidence_retrieved": "Two reference letters from previous clients required... August 31 deadline — late submissions not considered... Financial statements must cover 2 years...",
+        "conclusion_summary": "Medium overall risk. Reference letters are the critical path item requiring immediate action."
+      },
+      {
+        "step": "recommendation",
+        "query_used": "full analysis synthesis",
+        "evidence_retrieved": "",
+        "conclusion_summary": "PURSUE recommended with high confidence. Organization meets criteria, risks are manageable with immediate action."
+      },
+      {
+        "step": "action_planning",
+        "query_used": "submission deadline required documents application process next steps",
+        "evidence_retrieved": "Submit via grants.digitalfund.org... All documents in PDF format... August 31 final deadline...",
+        "conclusion_summary": "6-item immediate action plan generated with document checklist and submission guidance."
+      }
+    ]
+  },
+  "certification": {
+    "session_id": "demo-certification-001",
+    "status": "complete",
+    "reasoning_steps_completed": 5,
+    "results": {
+      "learner_id": "L-1001",
+      "target_certification": "AZ-204",
+      "fabric_readiness": {
+        "certification_id": "AZ-204",
+        "certification_name": "Developing Solutions for Microsoft Azure",
+        "readiness_level": "Needs Preparation",
+        "readiness_score": 63,
+        "practice_score": 67,
+        "hours_studied": 12,
+        "recommended_hours": 20,
+        "hours_remaining": 8,
+        "hours_completion_pct": 60.0,
+        "pass_threshold": 70,
+        "recommendation": "Structured study plan required before attempting exam",
+        "required_skills": ["API Development", "Azure Functions", "Storage", "Authentication"],
+        "source": "Fabric IQ Semantic Layer"
+      },
+      "fabric_skill_gaps": {
+        "certification_id": "AZ-204",
+        "matched_skills": ["Python", "REST APIs"],
+        "skill_gaps": ["API Development", "Azure Functions", "Storage", "Authentication"],
+        "match_percentage": 25.0,
+        "total_required": 4,
+        "source": "Fabric IQ Semantic Layer"
+      },
+      "work_capacity": {
+        "employee_id": "L-1001",
+        "capacity_level": "Medium-Low",
+        "current_workload": "High",
+        "meeting_hours_per_week": 22,
+        "focus_hours_per_week": 10,
+        "available_study_hours_per_week": 4,
+        "recommended_session_length_minutes": 45,
+        "best_study_windows": ["Early morning (07:00-09:00) before meetings"],
+        "engagement_approach": "Focused sessions during peak hours only",
+        "risk_flag": "Monitor for burnout — schedule study carefully",
+        "upcoming_deadlines": 3,
+        "source": "Work IQ Intelligence Layer"
+      },
+      "work_schedule": {
+        "employee_id": "L-1001",
+        "hours_remaining": 8,
+        "weekly_study_hours": 4,
+        "estimated_weeks_to_ready": 2.0,
+        "sessions_per_week": 5,
+        "session_length_minutes": 45,
+        "recommended_windows": ["Early morning (07:00-09:00) before meetings"],
+        "pace": "Steady",
+        "urgency": "Medium",
+        "capacity_level": "Medium-Low",
+        "engagement_approach": "Focused sessions during peak hours only",
+        "risk_flag": "Monitor for burnout — schedule study carefully",
+        "source": "Work IQ Intelligence Layer"
+      },
+      "learning_path": {
+        "certification_id": "AZ-204",
+        "certification_name": "Developing Solutions for Microsoft Azure",
+        "skill_gaps": ["API Development", "Azure Functions", "Storage", "Authentication"],
+        "matched_skills": ["Python", "REST APIs"],
+        "match_percentage": 25.0,
+        "required_skills": ["API Development", "Azure Functions", "Storage", "Authentication"],
+        "role_alignment": ["Cloud Engineer", "Software Developer", "Full Stack Developer"],
+        "raw_output": "CERTIFICATION TARGET: AZ-204 Developing Solutions for Microsoft Azure\n\nPREREQUISITE CHECK:\nAZ-900 is listed as a prerequisite. Alex Chen holds AZ-900 — prerequisite met.\n\nRECOMMENDED LEARNING PATH:\n1. Azure Functions and serverless architecture (addresses skill gap)\n2. Azure Blob Storage and Table Storage (addresses skill gap)\n3. API Development with Azure API Management (builds on existing REST API knowledge)\n4. Authentication with Microsoft Identity Platform and Azure AD (addresses skill gap)\n5. Application monitoring with Application Insights\n\nKEY RESOURCES:\nBased on the certification guide: focus on hands-on labs in Azure Portal. Target 75% practice score before exam. Daily study of 1-2 hours recommended.\n\nROLE ALIGNMENT:\nAZ-204 directly aligns with Cloud Engineer role. Completing this certification strengthens deployment and development capabilities.\n\nESTIMATED DIFFICULTY:\nModerate — learner has Python and REST API foundations but needs to build Azure-specific skills."
+      },
+      "study_plan": {
+        "readiness_level": "Needs Preparation",
+        "readiness_score": 63,
+        "hours_remaining": 8,
+        "weekly_hours": 4,
+        "estimated_weeks": 2.0,
+        "sessions_per_week": 5,
+        "session_length_minutes": 45,
+        "pace": "Steady",
+        "raw_output": "READINESS LEVEL: Needs Preparation\n\nWEEKLY SCHEDULE:\nGiven high workload and 4 available hours per week:\n- Monday: 45min — Azure Functions hands-on lab\n- Tuesday: 45min — Blob Storage practice\n- Wednesday: 45min — API Management walkthrough\n- Thursday: 45min — Authentication and identity\n- Friday: 45min — Practice assessment review\n\nMILESTONE PLAN:\nWeek 1: Cover all skill gaps with hands-on labs. Target 70% on practice assessment.\nWeek 2: Reinforce weak areas. Target 75%+ before booking exam.\n\nSTUDY TECHNIQUES:\nMicro-learning approach given high meeting load. 45-minute focused sessions before daily standups. Use Azure sandbox environment for hands-on practice.\n\nPRACTICE ASSESSMENT SCHEDULE:\nEnd of Week 1: First full practice test — target 68%\nEnd of Week 2: Second practice test — target 75%+\n\nESTIMATED EXAM DATE:\nApproximately 2 weeks from today if study schedule is maintained consistently."
+      },
+      "engagement_plan": {
+        "capacity_level": "Medium-Low",
+        "engagement_approach": "Focused sessions during peak hours only",
+        "best_windows": ["Early morning (07:00-09:00) before meetings"],
+        "risk_flag": "Monitor for burnout — schedule study carefully",
+        "study_streak": 5,
+        "raw_output": "ENGAGEMENT APPROACH: Micro-learning with burnout monitoring\n\nREMINDER STRATEGY:\nSend study reminders at 06:45 AM — 15 minutes before the optimal 07:00-09:00 study window. Avoid reminders during meeting-heavy afternoon hours. Weekly check-in reminder on Fridays.\n\nMOTIVATION TACTICS:\nAlex has a 5-day study streak — acknowledge and reinforce this. Streak maintenance is a strong motivator. Set a 10-day streak target as the next milestone.\n\nRISK MITIGATION:\nHigh meeting load (22hrs/week) plus 3 upcoming deadlines creates burnout risk. If a study session is missed, reschedule rather than skip. Reduce session length to 30 minutes during crunch weeks rather than stopping entirely.\n\nWEEKLY CHECK-IN PLAN:\nFriday afternoon: 5-minute reflection — did we hit the week's sessions? What's the plan for next week?\n\nADAPTATION TRIGGERS:\nIf practice score drops below 60% → extend timeline by 1 week\nIf 3+ consecutive sessions missed → schedule manager check-in\nIf workload increases to Very High → switch to weekend study sessions"
+      },
+      "assessment_result": {
+        "readiness_verdict": "Needs Preparation",
+        "readiness_score": 63,
+        "practice_score": 67,
+        "pass_threshold": 70,
+        "skill_gaps": ["API Development", "Azure Functions", "Storage", "Authentication"],
+        "matched_skills": ["Python", "REST APIs"],
+        "raw_output": "READINESS VERDICT: Needs Preparation\n\nREADINESS SCORE: 63/100\n\nGROUNDED PRACTICE QUESTIONS:\n1. [Azure Functions] You need to create a function that triggers when a message arrives in an Azure Storage Queue. Which trigger binding should you use? (Source: AZ-204 study guide — Azure Functions triggers section)\n2. [Storage] Your application needs to store unstructured data with high availability. Which Azure storage service is most appropriate and what redundancy option ensures data survives a regional outage? (Source: Blob Storage and redundancy guide)\n3. [Authentication] A user signs in with their organizational account. Which authentication flow should you implement using MSAL for a web application? (Source: Microsoft Identity Platform documentation)\n4. [API Management] You need to throttle API calls to 100 per minute per subscriber. Where in Azure API Management do you configure this? (Source: API Management policies guide)\n\nWEAK AREAS:\n- Azure Functions (no prior experience identified)\n- Authentication with Microsoft Identity Platform (not in current skill set)\n- Azure Storage (partial knowledge gap)\n\nSTRONG AREAS:\n- Python programming (strong foundation for Azure SDK usage)\n- REST API concepts (directly applicable to Azure API Management)\n\nEXAM READINESS RECOMMENDATION:\nNot yet ready. Current 67% practice score is below the 70% pass threshold. 8 more hours of structured study targeting skill gaps should bring readiness to exam-ready level.\n\nNEXT ASSESSMENT:\nReassess after 1 week of structured study. Target 72%+ on next practice test."
+      },
+      "manager_insights": {
+        "team_member": "Alex Chen",
+        "role": "Cloud Engineer",
+        "department": "Engineering",
+        "certification": "AZ-204",
+        "readiness_level": "Needs Preparation",
+        "readiness_score": 63,
+        "workload": "High",
+        "weeks_to_ready": 2.0,
+        "risk_flag": "Monitor for burnout — schedule study carefully",
+        "raw_output": "TEAM MEMBER STATUS: Needs Attention\n\nREADINESS SUMMARY:\nAlex Chen is working toward AZ-204 certification with a readiness score of 63/100. Currently in preparation phase — on track to be exam-ready within 2 weeks if study schedule is maintained.\n\nCAPACITY CONCERNS:\nAlex is carrying a high workload with 22 meeting hours per week and 3 upcoming deadlines. Available study time is limited to approximately 4 hours per week. Burnout risk is present and should be monitored.\n\nRECOMMENDED MANAGER ACTIONS:\n1. Review upcoming deadline load — can any be redistributed to free study time?\n2. Acknowledge Alex's 5-day study streak in next 1:1 — positive reinforcement matters\n3. Confirm team certification deadline allows 2+ weeks for completion\n4. Check in after Week 1 practice assessment to assess if timeline adjustment is needed\n\nTIMELINE RISK:\nModerate. Alex can meet a 2-week target if workload does not increase. The 3 upcoming deadlines are the primary risk to timeline. If any deadline slips into the study period, exam booking should be delayed by 1 week.\n\nTEAM PLANNING NOTE:\nAlex is the only Cloud Engineer currently pursuing AZ-204. Certification completion will strengthen the team's Azure development capability. Prioritizing this certification over the next 2 weeks has measurable team impact."
+      }
+    },
+    "evidence_trail": [
+      {
+        "step": "learning_path_curator",
+        "query_used": "AZ-204 certification requirements study areas learning resources",
+        "evidence_retrieved": "Key Study Areas for AZ-204: Implement Azure App Service web apps, Implement Azure Functions, Develop solutions using Azure Blob Storage, Implement Azure security (authentication and authorization)...",
+        "conclusion_summary": "Learning path curated with 5 ordered topics mapped to skill gaps. Role alignment confirmed for Cloud Engineer."
+      },
+      {
+        "step": "study_plan_generator",
+        "query_used": "certification study schedule capacity workload",
+        "evidence_retrieved": "Readiness: Needs Preparation | Capacity: Medium-Low | Available: 4hrs/week | Sessions: 5/week at 45min",
+        "conclusion_summary": "2-week study plan generated with daily 45-minute sessions. Exam date estimated at 2 weeks from today."
+      },
+      {
+        "step": "engagement_agent",
+        "query_used": "work patterns study reminders engagement timing",
+        "evidence_retrieved": "Workload: High | Windows: Early morning 07:00-09:00 | Streak: 5 days | Upcoming deadlines: 3",
+        "conclusion_summary": "Micro-learning engagement strategy with 06:45 AM reminders. Burnout monitoring protocol activated."
+      },
+      {
+        "step": "assessment_agent",
+        "query_used": "AZ-204 practice questions assessment criteria pass requirements exam topics",
+        "evidence_retrieved": "Recommended Study Pattern: Target 75% practice score before exam. Key areas: Azure Functions, Blob Storage, API Management, Authentication...",
+        "conclusion_summary": "4 grounded practice questions generated. Current score 67% below 70% threshold. 8 more study hours recommended."
+      },
+      {
+        "step": "manager_insights_agent",
+        "query_used": "team readiness certification progress manager visibility",
+        "evidence_retrieved": "Status: Needs Preparation | Workload: High | Weeks: 2.0 | Risk: burnout monitoring required",
+        "conclusion_summary": "Manager dashboard shows Needs Attention status. 4 specific manager actions recommended. Timeline risk is moderate."
+      }
+    ]
+  }
+}

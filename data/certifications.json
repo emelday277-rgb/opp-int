@@ -1,0 +1,84 @@
+{
+  "certifications": [
+    {
+      "id": "AZ-900",
+      "name": "Microsoft Azure Fundamentals",
+      "level": "Beginner",
+      "skills": ["Cloud Concepts", "Azure Services", "Security", "Pricing"],
+      "recommended_hours": 15,
+      "prerequisite": null,
+      "role_alignment": ["All Roles"],
+      "pass_threshold": 70,
+      "exam_duration_minutes": 60
+    },
+    {
+      "id": "AZ-204",
+      "name": "Developing Solutions for Microsoft Azure",
+      "level": "Intermediate",
+      "skills": ["API Development", "Azure Functions", "Storage", "Authentication"],
+      "recommended_hours": 20,
+      "prerequisite": "AZ-900",
+      "role_alignment": ["Cloud Engineer", "Software Developer", "Full Stack Developer"],
+      "pass_threshold": 70,
+      "exam_duration_minutes": 120
+    },
+    {
+      "id": "AZ-305",
+      "name": "Designing Azure Infrastructure Solutions",
+      "level": "Advanced",
+      "skills": ["Architecture", "Networking", "Identity", "Business Continuity"],
+      "recommended_hours": 30,
+      "prerequisite": "AZ-204",
+      "role_alignment": ["Cloud Architect", "Solutions Architect", "Senior Engineer"],
+      "pass_threshold": 70,
+      "exam_duration_minutes": 120
+    },
+    {
+      "id": "AZ-400",
+      "name": "Designing and Implementing DevOps Solutions",
+      "level": "Advanced",
+      "skills": ["CI/CD", "Monitoring", "GitHub Actions", "Infrastructure as Code"],
+      "recommended_hours": 25,
+      "prerequisite": "AZ-900",
+      "role_alignment": ["DevOps Engineer", "Platform Engineer", "Site Reliability Engineer"],
+      "pass_threshold": 70,
+      "exam_duration_minutes": 120
+    },
+    {
+      "id": "DP-203",
+      "name": "Data Engineering on Microsoft Azure",
+      "level": "Intermediate",
+      "skills": ["Data Pipelines", "Azure Synapse", "Data Lake", "Stream Processing"],
+      "recommended_hours": 22,
+      "prerequisite": "AZ-900",
+      "role_alignment": ["Data Engineer", "Analytics Engineer", "Data Architect"],
+      "pass_threshold": 70,
+      "exam_duration_minutes": 120
+    },
+    {
+      "id": "AI-102",
+      "name": "Designing and Implementing Azure AI Solutions",
+      "level": "Intermediate",
+      "skills": ["Azure AI Services", "NLP", "Computer Vision", "Knowledge Mining"],
+      "recommended_hours": 20,
+      "prerequisite": "AZ-900",
+      "role_alignment": ["AI Engineer", "ML Engineer", "Data Scientist"],
+      "pass_threshold": 70,
+      "exam_duration_minutes": 120
+    }
+  ],
+  "role_certification_map": {
+    "Cloud Engineer": ["AZ-900", "AZ-204", "AZ-305"],
+    "DevOps Engineer": ["AZ-900", "AZ-400"],
+    "Data Engineer": ["AZ-900", "DP-203"],
+    "AI Engineer": ["AZ-900", "AI-102"],
+    "Software Developer": ["AZ-900", "AZ-204"],
+    "Solutions Architect": ["AZ-900", "AZ-204", "AZ-305"]
+  },
+  "readiness_thresholds": {
+    "ready": 80,
+    "nearly_ready": 65,
+    "needs_preparation": 50,
+    "not_ready": 0
+  }
+}
